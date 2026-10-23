@@ -1,32 +1,34 @@
 # Möbius Transformation Visualizer
 
-An interactive web-based visualizer for exploring Möbius transformations and their geometric effects on the complex plane. Built with the help of ChatGPT.
+An interactive playground for exploring Möbius transformations and their geometric effects on the complex plane.
+
+The goal is to make these transformations easier to understand through visual experiments and continuous animations.
+
+Built with the help of ChatGPT.
 
 🌐 **[Try it here](https://tojyc.github.io/Mobius_transformation_visualizer/)**
 
-## Overview
+## Exploring Möbius Transformations
 
-A Möbius transformation is a function of the form
+A Möbius transformation has the form
 
 \[
 f(z)=\frac{az+b}{cz+d},
-\qquad ad-bc\neq 0,
+\qquad ad-bc\neq 0.
 \]
 
-where \(a,b,c,d\in\mathbb{C}\).
+Instead of just calculating the image of individual points, this visualizer lets you see how the coordinate grid and selected regions change under a transformation.
 
-These transformations have rich geometric properties and play an important role in complex analysis and geometry. This project provides an interactive way to experiment with their coefficients and observe how the transformation changes the complex plane.
+You can experiment with different coefficients, or start with presets such as rotations, translations, inversion, and the identity map.
 
-## Features
+## Animation
 
-- **Interactive coefficients** — Modify the complex coefficients and explore their effects on the transformation.
-- **Geometric visualization** — Observe the transformation visually rather than relying solely on algebraic calculations.
-- **Parameter control** — Switch between the \(t=0\) and \(t=1\) states to explore the corresponding configurations.
-- **Display options** — Customize the visualization using the available display controls.
+Use `t=0` and `t=1` to switch between the initial and target configurations.
 
-## How to Use
+Play the animation or move the progress slider to observe the transformation continuously. This makes it easier to explore how the geometry changes between the two states.
 
-1. Open the visualizer using the link above.
-2. Adjust the coefficients to define a Möbius transformation.
-3. Use the `t=0` and `t=1` controls to explore the corresponding states.
-4. Experiment with different coefficients and display options to investigate the geometric behavior of the transformation.
+You can also select regions using inequalities, switch between the standard complex-plane and Cayley views, and adjust the display options.
+
+## Preview
+
+![Möbius Transformation Visualizer](screenshot.png)
